@@ -8,7 +8,9 @@ on:
 jobs:
   release:
     runs-on: ubuntu-24.04
-
+    permissions:
+      # pypi trusted publishing
+      id-token: write
     steps:
       - uses: actions/checkout@v4
 
@@ -20,5 +22,4 @@ jobs:
 
       - uses: pypa/gh-action-pypi-publish@release/v1
         with:
-          password: ${{ secrets.PYPI_TOKEN }}
           attestations: false
