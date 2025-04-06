@@ -1,3 +1,7 @@
+[build-system]
+requires = ["flit-core==3.12.0"]
+build-backend = "flit_core.buildapi"
+
 [project]
 name = "wcwidth-stubs"
 version = "0.2.13.0"
@@ -15,12 +19,5 @@ license = { text = "MIT" }
 [project.urls]
 repository = 'https://github.com/trim21/wcwidth-stubs'
 
-[build-system]
-requires = ["pdm-backend==2.4.3"]
-build-backend = "pdm.backend"
-
-[tool.pdm]
-distribution = true
-
-[tool.pdm.build]
-includes = ["src/wcwidth-stubs/"]
+[tool.flit.module]
+name = "wcwidth-stubs"
