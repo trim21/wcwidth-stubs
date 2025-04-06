@@ -12,6 +12,9 @@ dependencies = [
 readme = "README.md"
 license = { text = "MIT" }
 
+[project.urls]
+repository = 'https://github.com/trim21/wcwidth-stubs'
+
 [build-system]
 requires = ["pdm-backend==2.4.3"]
 build-backend = "pdm.backend"

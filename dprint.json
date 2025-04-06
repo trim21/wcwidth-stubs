@@ -1,10 +1,6 @@
 {
-  "typescript": {},
   "json": {},
-  "markdown": {},
   "toml": {},
-  "malva": {},
-  "markup": {},
   "yaml": {},
   "excludes": [
     "**/node_modules",
@@ -12,7 +8,6 @@
     "dprint/**"
   ],
   "plugins": [
-    "https://plugins.dprint.dev/typescript-0.94.0.wasm",
     "https://plugins.dprint.dev/json-0.20.0.wasm",
     "https://plugins.dprint.dev/toml-0.7.0.wasm",
     "https://plugins.dprint.dev/g-plane/pretty_yaml-v0.5.0.wasm"
