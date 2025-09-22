@@ -11,7 +11,7 @@ authors = [
   { name = "trim21", email = "trim21.me@gmail.com" },
 ]
 dependencies = [
-  'wcwidth==0.2.13',
+  'wcwidth==0.2.14',
 ]
 readme = "README.md"
 license = { text = "MIT" }
